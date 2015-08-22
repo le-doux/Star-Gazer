@@ -1,0 +1,25 @@
+{
+
+  project : {
+    name : 'Star Gazer',
+    version : '1.0.0',
+    author : 'Adam Le Doux',
+
+    app : {
+      name : 'StarGazer',
+      package : 'org.ledoux.stargazer'
+    },
+
+    build : {
+      dependencies : {
+        pincushion : '*'
+      }
+    },
+
+    files : {
+      assets : 'assets/'
+    }
+
+  }
+
+}
